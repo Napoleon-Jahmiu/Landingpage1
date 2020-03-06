@@ -1,0 +1,71 @@
+:root {
+    --colorone: rgba(41, 128, 185, 0.5);
+    --colortwo: rgba(231, 76, 60, 0.5);
+    --colorthree: rgba(131, 145, 146, 0.5);
+    --width: 960px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    background: #ccc;
+    line-height: 1.7;
+}
+
+a {
+    text-decoration: none;
+    /* color: #333; */
+}
+
+/* utility classes */
+.container {
+    width: var(--width);
+    padding: 2rem;
+    overflow: auto;
+    margin: auto;
+}
+
+.py-1 {padding: 1rem 0;}
+.py-2 {padding: 1.5rem 0;}
+.py-3 {padding: 2rem 0;}
+.p-1 {padding: 1rem;}
+.p-2 {padding: 1.5rem;}
+.p-3 {padding: 2rem;}
+
+/* navbar section */
+#navbar {
+    background: var(--colortwo);
+    display: flex;
+
+}
+
+/* showcase Section */
+#showcase {
+    background: #333;
+    /* background: url('../img/birm.jpg') no-repeat center center/cover; */
+    height: 70vh;
+    position: relative;
+    /* overflow: hidden; */
+    padding: 2rem;
+    color: #fff;
+}
+
+#showcase::before {
+    content: '';
+    position: absolute;
+    background: url('../img/mike.jpg') no-repeat center center/cover;
+    /* background: var(--colorone); */
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    /* color: #fff; */
+    /* z-index: 1; */
+    opacity: 0.3;
+}
+
+
