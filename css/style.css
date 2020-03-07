@@ -139,7 +139,7 @@ a {
     justify-content: center;
 }
 
-#welcome {
+#welcome .welcome-training {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 1rem;
@@ -155,35 +155,20 @@ a {
     width: var(--width);
 }
 
-/* #welcome .welcome-training {
-    position: absolute;
-    float: left;
-    padding: 1rem;
-    width: 50%;
-} */
-
 #welcome .training-content {
-    text-align: center;
+    /* text-align: center; */
     align-items: center;
     align-content: center;
-    padding: 1rem;
+    padding: 2rem;
     width: 50%;
-    float: left;
+    /* float: left; */
 }
-
-/* #welcome .training-img {
-    position: absolute;
-    padding: 1rem;
-    float: right;
-    width: 50%; */
-
 
 #welcome .training img {
     max-height: 350px;
     width: 50%;
     justify-content: center;
     align-items: center;
-    float: right;
+    /* float: right; */
     padding: 1rem;
-    /* position: absolute; */
 }
