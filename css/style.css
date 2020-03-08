@@ -37,6 +37,15 @@ a {
 .p-2 {padding: 1.5rem;}
 .p-3 {padding: 2rem;}
 
+.m-heading {
+    font-size: 2rem;
+    padding: .75rem;
+}
+
+.m-center {
+    text-align: center;
+
+}
 /* navbar section */
 #navbar {
     background: #333;
@@ -139,7 +148,7 @@ a {
     justify-content: center;
 }
 
-#welcome .welcome-training {
+#welcome{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 1rem;
@@ -150,9 +159,18 @@ a {
     /* position: relative; */
 }
 
+#welcome h3 {
+    text-align: center;
+}
+
 #welcome .training {
-    align-content: center;
+    align-content: space-between;
     width: var(--width);
+}
+
+.welcome-training {
+    padding: 1rem;
+    background: #444;
 }
 
 #welcome .training-content {
@@ -165,7 +183,7 @@ a {
 }
 
 #welcome .training img {
-    max-height: 350px;
+    max-height: 400px;
     width: 50%;
     justify-content: center;
     align-items: center;
