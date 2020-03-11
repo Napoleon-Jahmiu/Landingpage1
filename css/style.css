@@ -151,40 +151,35 @@ a {
     justify-content: center;
 }
 
+#welcome {
+    height: 400px;
+    position: relative;
+}
+
 #welcome{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-gap: 1rem;
-    justify-content: center;
-    /* padding: 1rem; */
-    /* margin: 0 2rem; */
+    grid-gap: 3rem;
+    margin: auto;
     width: var(--width);
-    /* position: relative; */
+    position: absolute;
+    height: 400px;
+    /* width: 1000px; */
 }
 
-#welcome h3 {
-    text-align: center;
-}
-
-#welcome .training {
-    /* align-content: center; */
-    width: var(--width);
-}
-
-#welcome .training-content {
-    /* text-align: center; */
-    align-items: center;
+.welcome-training .training-content {
+    width: 50%;
+    /* position: absolute; */
+    height: 100%;
+    /* width: 50vw; */
+    text-align: justify;
     align-content: center;
-    padding: 1rem;
-    width: 50%;
-    float: left;
 }
 
-#welcome .training img {
-    max-height: 400px;
+.welcome-training .training-img {
+    background: url('../img/mike.jpg')no-repeat center center/cover;
+    height: 100%;
+    /* width: 50vw; */
     width: 50%;
-    justify-content: center;
-    align-items: center;
-    float: right;
-    padding: 1rem;
+    /* position: absolute; */
 }
