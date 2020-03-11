@@ -24,9 +24,12 @@ a {
 /* utility classes */
 .container {
     width: var(--width);
-    padding: 2rem;
-    overflow: auto;
+    /* padding: 2rem; */
+    overflow: hidden;
     margin: auto;
+    /* display: flex; */
+    align-items: center;
+    justify-content: flex-start;
     align-content: center;
 }
 
@@ -154,7 +157,7 @@ a {
     grid-gap: 1rem;
     justify-content: center;
     /* padding: 1rem; */
-    margin: 0 2rem;
+    /* margin: 0 2rem; */
     width: var(--width);
     /* position: relative; */
 }
@@ -164,22 +167,17 @@ a {
 }
 
 #welcome .training {
-    align-content: space-between;
+    /* align-content: center; */
     width: var(--width);
-}
-
-.welcome-training {
-    padding: 1rem;
-    background: #444;
 }
 
 #welcome .training-content {
     /* text-align: center; */
     align-items: center;
     align-content: center;
-    padding: 2rem;
+    padding: 1rem;
     width: 50%;
-    /* float: left; */
+    float: left;
 }
 
 #welcome .training img {
@@ -187,6 +185,6 @@ a {
     width: 50%;
     justify-content: center;
     align-items: center;
-    /* float: right; */
+    float: right;
     padding: 1rem;
 }
