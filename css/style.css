@@ -240,18 +240,10 @@ a {
 #learn .items {
     display: grid;
     grid-template-columns: repeat(3, auto);
-    /* padding: 2rem; */
-    grid-gap: rem;
+    padding-bottom: 1rem;
+    grid-gap: 1rem;
     justify-content: space-between;
     align-items: center;
     /* align-items: center; */
 }
 
-#learn .items {
-    margin
-}
-
-.items ul li {
-    list-style: none;
-    margin: none ;
-}
