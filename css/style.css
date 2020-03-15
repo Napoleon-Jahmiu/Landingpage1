@@ -18,6 +18,7 @@ body, html {
 
 a {
     text-decoration: none;
+    color: white;
     /* color: #333; */
 }
 
@@ -49,6 +50,21 @@ a {
     text-align: center;
 
 }
+
+.btn {
+    color: white;
+    border: white 2px solid;
+    padding: .5rem 1rem ;
+    text-align: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+/* .reg {
+    align-items: center;
+    margin-top: 2rem;
+} */
+
 /* navbar section */
 #navbar {
     background: #333;
@@ -125,7 +141,6 @@ a {
     /* background: url('../img/birm.jpg') no-repeat center center/cover; */
     height: 70vh;
     position: relative;
-   
     padding: 2rem;
     color: #fff;
 }
@@ -149,36 +164,36 @@ a {
     grid-gap: 1rem;
     align-items: center;
     justify-content: center;
+    position: absolute;
 }
 
+/* Welcome Section */
 #welcome {
-    height: 400px;
-    position: relative;
-}
-
-#welcome{
     margin: auto;
     width: var(--width);
-    height: 400px;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
     /* width: 1000px; */
 }
 
 #welcome h3 {
     text-align: center;
+    margin-bottom: 1.2rem;
 }
 
 #welcome .welcome-training {
     display: flex;
+    position: absolute;
     /* justify-content: space-around; */
     justify-items: center;
-    height: inherit;
     margin-bottom: 2rem;
 }
 
 .welcome-training .training-content {
     width: 50%;
-    padding-right: 3rem;
-    height: 100%;
+    padding: 0 3rem;
+    /* height: 100%; */
     text-align: justify;
     align-content: center;
 }
@@ -188,10 +203,15 @@ a {
     padding: 0 3rem;
     height: inherit;
     /* float: right; */
-    margin-top: 2rem;
+    margin-bottom: 2rem;
     width: 50%;
 }
 
 #learn {
     display: flex;
+    background: #333;
+    color: #fff;
+    overflow: auto;
 }
+
+#learn .container
