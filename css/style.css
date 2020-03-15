@@ -75,7 +75,7 @@ a {
 
 .reg {
     align-items: center;
-    margin-top: 2rem;
+    margin-top: 1rem;
     color: #333;
 }
 
@@ -232,20 +232,26 @@ a {
     overflow: auto;
 }
 
+#learn h1 {
+    padding-bottom: none;
+    margin-bottom: none;
+}
+
 #learn .items {
     display: grid;
     grid-template-columns: repeat(3, auto);
-    padding: 2rem;
-    grid-gap: 1rem;
+    /* padding: 2rem; */
+    grid-gap: rem;
     justify-content: space-between;
     align-items: center;
     /* align-items: center; */
 }
 
-.items ul li {
-    list-style: none;
+#learn .items {
+    margin
 }
 
-.item {
-
+.items ul li {
+    list-style: none;
+    margin: none ;
 }
