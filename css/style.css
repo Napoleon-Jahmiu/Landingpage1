@@ -18,7 +18,7 @@ body, html {
 
 a {
     text-decoration: none;
-    color: white;
+    /* color: white; */
     /* color: #333; */
 }
 
@@ -56,16 +56,28 @@ a {
     color: white;
     border: white 2px solid;
     padding: .5rem 1rem ;
-    text-align: center;
+    /* text-align: center;
     align-items: center;
-    align-content: center;
+    align-content: center; */
     /* margin-top: 1rem; */
 }
 
-/* .reg {
+.btn-dark {
+    display: inline-block ;
+    color: #333;
+    border: #333 2px solid;
+    padding: .5rem 1rem ;
+    /* text-align: center;
+    align-items: center;
+    align-content: center; */
+    /* margin-top: 1rem; */
+}
+
+.reg {
     align-items: center;
     margin-top: 2rem;
-} */
+    color: #333;
+}
 
 /* navbar section */
 #navbar {
@@ -220,8 +232,20 @@ a {
     overflow: auto;
 }
 
-#learn .container {
-    display: flex;
-    flex-direction: column;
+#learn .items {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
     padding: 2rem;
+    grid-gap: 1rem;
+    justify-content: space-between;
+    align-items: center;
+    /* align-items: center; */
+}
+
+.items ul li {
+    list-style: none;
+}
+
+.item {
+
 }
