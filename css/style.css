@@ -12,7 +12,7 @@
 }
 
 body, html {
-    background: #ccc;
+    background: #fff;
     line-height: 1.7;
 }
 
@@ -228,7 +228,7 @@ a {
     display: flex;
     flex-direction: column;
     color: #333;
-    background-color: #fff;
+    background: #ccc;
     overflow: auto;
 }
 
@@ -332,7 +332,8 @@ ul li:nth-child(even) .testimonials .test-speech{
 
 .footer {
     color: #333;
-    background: #fff;
+    background: #ccc;
     padding: .5rem;
     overflow: hidden;
+    text-align: center;
 }
