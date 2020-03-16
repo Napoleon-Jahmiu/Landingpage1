@@ -12,7 +12,7 @@
 }
 
 body, html {
-    background: #fff;
+    background: #ccc;
     line-height: 1.7;
 }
 
@@ -228,7 +228,7 @@ a {
     display: flex;
     flex-direction: column;
     color: #333;
-    background: #ccc;
+    background: #fff;
     overflow: auto;
 }
 
@@ -304,7 +304,7 @@ a {
 }
 
 /* Testimonial for box */
-ul li:nth-child(even).testimonials .box {
+ul li:nth-child(even) .testimonials .box {
         width: 3px;
         margin-top: 5rem;
         height:280px;
@@ -323,16 +323,16 @@ ul li:nth-child(even).testimonials .box {
 }
 
 ul li:nth-child(even) .testimonials .test-speech h3 {
-    transform: translateX(50px)
+    transform: translateX(50px);
 }
 
-ul li:nth-child(even) .testimonials .test-speech{
+ul li:nth-child(even) .testimonials .test-speech {
     transform: translateX(-30px);
 }
 
 .footer {
     color: #333;
-    background: #ccc;
+    background: #fff;
     padding: .5rem;
     overflow: hidden;
     text-align: center;
