@@ -29,6 +29,8 @@ body, html {
     margin: auto;
     padding: 1.5rem;
     margin-top: 2rem;
+    margin-bottom: 3rem;
+    border-radius: 5px;
 }
 
 .form-wrap h2 {
@@ -36,18 +38,28 @@ body, html {
     margin-bottom: 1rem;
 }
 .form-group label{
-    /* padding: 2rem; */
+    margin-top: .5rem;
 }
 
 .form-group input {
-    padding: 5px;
+    padding: 8px;
     width: 100%;
-    
+    border: 1px solid ;
+    border-radius: 5px;
+    outline-color: palevioletred;
+    margin-bottom: 1.3rem;
 }
 
+.send {
+    padding: .5rem .3rem;
+    border-radius: 4px;
+    border: none;
+}
 
-
-
+.send:hover {
+    font-size: 1rem;
+    background: rgba(41, 128, 185, 0.5)
+}
 
 </style>
 
@@ -59,22 +71,22 @@ body, html {
         <div class="form-wrap">
             <h2>Register For This Class</h2>
             <div class="form-group">
-                <label for="Name">Full Name:</label>
+                <label class="is-requierd" for="Name">Full Name</label>
                 <input type="text" name="name" id="name" placeholder="Enter Your Full Name">
             </div>
 
             <div class="form-group">
-                <label for="Name">Email:</label>
+                <label class="is-required" for="Name">Email</label class="is-required">
                 <input type="email" name="email" id="email" placeholder="Enter Your E-mail">
             </div>
 
             <div class="form-group">
-                <label for="Name">Phone Number:</label>
+                <label class="is-required" for="Name">Phone Number</label>
                 <input type="number" name="number" id="number" placeholder="Enter Your Phone Number">
             </div>
 
             <div class="form-group">
-                <label for="Name">Profession:</label>
+                <label class="is-required" for="Name">Profession</label>
                 <input type="text" name="name" id="name" placeholder="Enter Your Profession">
             </div>
 
@@ -82,7 +94,7 @@ body, html {
                 <label for="message">What is your End Goal?</label>
                 <textarea name="message" id="message" cols="30" rows="10" placeholder="Leave Message"></textarea>
             </div>
-            <button type="send"> SUBMIT</button>
+            <button class="send"> SUBMIT</button>
         </div>
     </form>
     
