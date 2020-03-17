@@ -306,7 +306,8 @@ a {
 }
 
 /* Testimonial for box */
-ul li:nth-child(even) .testimonials .box {
+ul li:nth-child(2nd) .testimonials .box,
+ul li:nth-child(4th) .testimonials .box {
         width: 3px;
         margin-top: 5rem;
         height:280px;
@@ -330,6 +331,18 @@ li:nth-child(2) .testimonials .test-speech h3 {
 
 li:nth-child(even) .testimonials .test-speech {
     transform: translateX(-30px);
+}
+
+
+/* thank you successful registration page */
+.thanks {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 .footer {
