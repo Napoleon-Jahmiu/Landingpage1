@@ -313,6 +313,7 @@ a {
 .testimonias .test-speech {
     margin-right: 2rem;
     margin-top: 2rem;
+    text-align: justify;
     font-size: 14px;
 }
 
