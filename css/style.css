@@ -248,6 +248,10 @@ a {
     /* align-items: center; */
 }
 
+#learn .items ul li{
+    list-style: none;
+}
+
 /* Testimonial section */
 
 #testimonial {
@@ -270,22 +274,16 @@ a {
 }
 
 /* testimonial for even numbers */
-ul li:nth-child(2).testimonials,
-ul li:nth-child(4).testimonials {
+.testimonias > div{
    display: grid;
    justify-self: flex-end;
    grid-template-columns: auto .5fr auto;
+   grid-gap: 1rem;
    width: 70vw;
-   margin-bottom: 2rem;
+   padding: 1.5rem;
+   /* margin-bottom: 2rem; */
    transform: translateX(310px);
 }
-
-/* li:nth-child(even) .testimonials > div {
-    display: grid;
-    grid-template-columns: 1fr 2fr 2fr;
-    grid-gap: 1rem;
-    padding: 1.5rem;
-} */
 
 
 /* This is the line at the between the image and the text */
@@ -294,13 +292,26 @@ ul li:nth-child(4).testimonials {
     margin-top: 5rem;
     height:250px;
     background: #333;
-    transform: translateX(5px);
+    transform: translateX(10px);
     color: black;
     /* transform: translateX(-50px); */
 }
 
+.testimonias .box {
+    width: 3px;    
+    margin-top: 5rem;
+    height: 250px;
+    background: #333;
+    transform: translateX(-20px);
+}
 .testimonials .test-speech {
     margin-left: 2rem;
+    margin-top: 2rem;
+    font-size: 14px;
+}
+
+.testimonias .test-speech {
+    margin-right: 2rem;
     margin-top: 2rem;
     font-size: 14px;
 }
@@ -310,15 +321,23 @@ ul li:nth-child(4).testimonials {
     padding-bottom: 2rem;
 }
 
+.testimonias .test-speech h3 {
+    transform: translateX(310px);
+    padding-bottom: 2rem;
+}
+
 .testimonials img {
     display: block;
     height: 400px;
     width: 400px;
 }
 
-
+.testimonias img {
+    display: block;
+    height: 400px;
+    width: 400px;
+}
     
-
 /* thank you successful registration page */
 .thanks {
     display: flex;
