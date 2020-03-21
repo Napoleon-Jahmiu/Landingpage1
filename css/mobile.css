@@ -1,0 +1,81 @@
+/* @media (max-width:1000px) {
+    #showcase .showcase-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+        text-align: center;
+
+    }
+} */
+
+#navbar .logo {
+    padding: 1.6rem;
+}
+
+#navbar .social .fa-youtube, 
+#navbar .social .fa-instagram{
+    display: none;
+}
+
+#showcase .showcase-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    align-content: center;
+    margin: auto;
+    padding: 3rem;
+}
+
+.testimonials > div {
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto .5fr auto;
+
+}
+
+.testimonias > div {
+    width: 100%;
+    transform: none;
+    display: grid;
+    grid-template-columns: auto .5fr auto;
+}
+
+.testimonials .box {
+    margin-top: 3rem;
+    height: 300px;
+}
+
+.testimonias .box {
+    margin-top: 3rem;
+    height: 300px;
+}
+
+.testimonials .test-speech {
+    margin-top: -1rem;
+}
+
+.testimonias .test-speech {
+    margin-top: -1rem;
+}
+
+.testimonials .test-speech h3 {
+    padding-bottom: -1rem;
+    margin-top: 1rem;
+    margin-bottom: -1.2rem;
+}
+
+.testimonias .test-speech h3 {
+    padding-bottom: -1rem;
+    margin-top: 1rem;
+    margin-bottom: -1.2rem;
+    transform: translateX(160px);
+}
+
+.testimonials img {
+    width: 350px;
+}
+
+.testimonias img {
+    width: 350px
+}

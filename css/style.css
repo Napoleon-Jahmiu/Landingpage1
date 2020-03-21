@@ -24,7 +24,7 @@ a {
 
 /* utility classes */
 .container {
-    width: var(--width);
+    max-width: var(--width);
     /* padding: 2rem; */
     overflow: hidden;
     margin: auto;
@@ -85,10 +85,13 @@ a {
     background: #333;
     color: #fff;
     display: flex;
-    position: sticky;
+    /* position: fixed; */
+    /* width: 100%; */
     justify-content: space-between;
     top: 0;
-    opacity: 0.5;  
+    left: 0;
+    opacity: 0.7; 
+    z-index: 2; 
 }
 
 #navbar .logo {
@@ -99,7 +102,6 @@ a {
     letter-spacing: .2rem;
     color: var(--colortwo);
 }
-
 
 #navbar .logo h1 {
     color: #fff;
@@ -188,10 +190,11 @@ a {
 /* Welcome Section */
 #welcome {
     margin: auto;
-    width: var(--width);
-    height: 100vh;
-    position: relative;
-    overflow: hidden;
+    max-width: var(--width);
+    min-height: 100%;
+    padding: 2rem;
+    /* position: relative; */
+    /* overflow: hidden; */
     /* width: 1000px; */
 }
 
@@ -202,16 +205,13 @@ a {
 
 #welcome .welcome-training {
     display: flex;
-    position: absolute;
-    /* justify-content: space-around; */
     justify-items: center;
-    margin-bottom: 2rem;
+    /* margin-bottom: 2rem; */
 }
 
 .welcome-training .training-content {
     width: 50%;
-    padding: 0 3rem;
-    /* height: 100%; */
+    padding: 0 2rem;
     text-align: justify;
     align-content: center;
 }
@@ -220,17 +220,17 @@ a {
     background: url('../img/about.jpg')no-repeat center center/cover;
     padding: 0 3rem;
     height: inherit;
-    /* float: right; */
     margin-bottom: 2rem;
     width: 50%;
 }
 
+/* The what you will learn section */
+
 #learn {
-    display: flex;
-    flex-direction: column;
     color: #333;
     background: #fff;
     overflow: auto;
+    padding: 0 2rem;
 }
 
 #learn h1 {
@@ -239,12 +239,14 @@ a {
 }
 
 #learn .items {
-    display: grid;
-    grid-template-columns: repeat(3, auto);
+    display: flex;
+    flex-direction: repeat(3, auto);
     padding-bottom: 1rem;
     grid-gap: 1rem;
     justify-content: space-between;
     align-items: center;
+    /* color: #333;
+    background: #fff; */
     /* align-items: center; */
 }
 
@@ -308,6 +310,7 @@ a {
     margin-left: 2rem;
     margin-top: 2rem;
     font-size: 14px;
+    text-align: justify;
 }
 
 .testimonias .test-speech {
