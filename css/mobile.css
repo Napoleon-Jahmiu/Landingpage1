@@ -79,3 +79,40 @@
 .testimonias img {
     width: 350px
 }
+
+
+
+@media (max-width: 500px) {
+    #navbar {
+        flex-direction: column;
+        justify-content: center;
+
+    }
+
+    div.logo {
+        padding: -2rem;
+    }
+
+    #navbar .social {
+        display: none;
+        padding: -2rem;
+    }
+
+    #navbar ul{
+        padding: -1rem;
+    }
+
+    #showcase {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        text-align: center/justify;
+    }
+
+    #showcase h1 {
+        padding-top: 4rem;
+        font-size: 1.3rem;
+    }
+}
+
