@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="font/css/all.min.css">
     <link rel="stylesheet" href="font/css/fontawesome.min.css">
     <title>Fleex | Welcome</title>
+</head>
+<body>
     <nav>
         <div id="navbar">
         <!-- <div class="navbar-content"> -->
@@ -46,7 +48,7 @@
                 </p>
 
                 <!-- <a class="btn" href="form.html">REGISTER</a> -->
-                <p > <a class="btn" href="form.html">REGISTER</a> </p>
+                <p id="modalBtn"> <a class="btn" href="form.html">REGISTER</a> </p>
             </div>
         
         </div>
@@ -76,7 +78,7 @@
                           officia ea, dignissimos similique. Laudantium.</p>
                     </div>
                     
-                            <div class="btn-dark reg"> <a href="form.html">REGISTER NOW</a></div>
+                            <p class=" btn btn-dark reg"> <a href="form.html">REGISTER NOW</a></p>
                  </div>
                  
 _
@@ -225,7 +227,7 @@ _
             
         
         </ul>
-        <div class="btn-dark reg"> <a href="form.html">START NOW</a></div>
+        <div class="btn btn-dark reg"> <a href="form.html">START NOW</a></div>
     </section>
 
     <div class="socials">
@@ -238,8 +240,59 @@ _
     <footer class="footer">
         <p>Copyright &copy; D'Fleex 2019. All Rights Reserved. </p>
     </footer>
-</head>
-<body>
+
+
+    <!-- This section is for the form class that will pop us like a modal... -->
+    <div id="simpleModal" class="modal">
+        <div class="forming">
+        <form action="GET">
+            <div class="form-wrap">
+                <span class="closeBtn">&times;</span>
+                <h2>Register For This Class</h2>
+                <div class="form-group">
+                    <label class="is-requierd" for="Name">Full Name</label>
+                    <input type="text" name="name" id="name" placeholder="Enter Your Full Name">
+                </div>
     
+                <div class="form-group">
+                    <label class="is-required" for="Name">Email</label class="is-required">
+                    <input type="email" name="email" id="email" placeholder="Enter Your E-mail">
+                </div>
+    
+                <div class="form-group">
+                    <label class="is-required" for="Name">Phone Number</label>
+                    <input type="number" name="number" id="number" placeholder="Enter Your Phone Number">
+                </div>
+    
+                <div class="form-group">
+                    <label class="is-required" for="Name">Profession</label>
+                    <input type="text" name="name" id="name" placeholder="Enter Your Profession">
+                </div>
+    
+                <div class="form-group">
+                    <label for="message">What is your End Goal?</label>
+                    <textarea name="message" id="message" cols="30" rows="3" placeholder="Leave Message"></textarea>
+                </div>
+                <button class="send"> <a href="thank.html">SUBMIT</a></button>
+            </div>
+        </form>
+    
+        <p class="terms">By clicking, you have agreed to our <a href="#">Terms & Conditions</a> 
+            <br>
+            and also our <a href="#Privacy">Policies & Privacy</a> </p>. 
+    <!-- 
+        <div class="radio">
+        <input type="radio" name="" id="radio"> I Agree.
+        <input type="radio" name="" id="radio"> I Do Not Agree
+        </div> -->
+        
+        <footer class="footer">
+            <p>Copyright &copy; D'Fleex 2019. All Rights Reserved. </p>
+        </footer>
+    
+        </div>
+        </div>
+    
+    <script src="main.js"></script>
 </body>
 </html>

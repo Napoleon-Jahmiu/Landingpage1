@@ -222,3 +222,29 @@
     }
 }
 
+@media (max-width:320px) {
+    #navbar {
+        display: inline-block;
+    }   
+
+    #navbar ul {
+        margin-top: -3rem;
+    }
+
+    #showcase {
+        height: 100vh;
+        display: inherit;
+        width: 100%;
+    }
+
+    #showcase .showcase-content{
+        padding-top: 7rem;
+    }
+
+    #showcase .showcase-container h1 {
+        letter-spacing: 0.7;
+        display: block;
+        text-align: center;
+    }
+}
+
