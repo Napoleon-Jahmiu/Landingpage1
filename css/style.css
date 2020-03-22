@@ -423,7 +423,7 @@ button {
     cursor: pointer;
 }
 
-.closeBtn:hover {
+.closeBtn:hover, .closeBtn:focus {
     font-size: 2rem;
     background-color: red;
     color: #fff;
