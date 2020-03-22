@@ -186,7 +186,9 @@ a {
 
 #showcase .showcase-container .btn {
     margin-top: 1.2rem;
+    align-items: center;
 }
+
 /* Welcome Section */
 #welcome {
     margin: auto;
