@@ -49,22 +49,22 @@ a {
 
 }
 
-.btn {
+.button{
     display: inline-block ;
     color: white;
     border: white 2px solid;
     padding: .5rem 1rem ;
-    /* text-align: center;
-    align-items: center;
-    align-content: center; */
-    /* margin-top: 1rem; */
+    margin-top: 1rem;
 }
 
-.btn-dark {
-    display: inline-block ;
+.button a {
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    /* display: inline-block ;
     color: #333;
     border: #333 2px solid;
-    padding: .5rem 1rem ;
+    padding: .5rem 1rem ; */
     /* text-align: center;
     align-items: center;
     align-content: center; */
