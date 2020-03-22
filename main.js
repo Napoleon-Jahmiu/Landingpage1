@@ -2,17 +2,18 @@
 var modal = document.getElementById('simpleModal');
 
 // Get Open Modal button
-var modalBtn = document.getElementsByClassName('modalBtn');
+var modalBtn = document.getElementsByClassName('btn');
 
 // Get CLose Modal button
-var CloseBtn = document.getElementsByClassName('closeBtn')[0];
+var closeBtn = document.getElementsByClassName('closeBtn');
 
 // Listen for a click event (open Modal)
-modalBtn.addEventListener('click', openModal);
+modalBtn.addEventListener('click', opensimpleModal);
 
-// Open Modal Section (The form for the event)
-modal.style.display = 'block';
-
+// Function to open modal
+function openModal (){
+    modal.style.display = 'block';
+}
 // Close Modal section (Form for the events)
 
 
