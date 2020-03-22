@@ -353,12 +353,13 @@ a {
     align-content: center;
     align-items: center;
     text-align: center;
+    padding: 2rem;
 }
 
 .footer {
     color: #333;
     background: #fff;
     padding: .5rem;
-    overflow: hidden;
+    overflow: auto;
     text-align: center;
 }
